@@ -1,0 +1,7 @@
+<div class="forecast">
+  <ul>
+    <li ng-repeat="periode in forecast">
+      {{ periode.dt * 1000 | date:'HH' }}
+    </li>
+  </ul>
+</div>

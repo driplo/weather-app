@@ -213,6 +213,9 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-client/public
+client/public/css
+client/public/font
+client/public/js
+client/public/font
 bower_components/
 node_modules/
