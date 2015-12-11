@@ -1,5 +1,13 @@
 <div class="current-weather">
 
+  <input ng-controller="MainController"
+  ng-model="lat" value="{{lat}}"
+  ng-change="updateWeather(lat, lng);">
+
+  <input ng-controller="MainController"
+  ng-model="lng" value="{{lng}}"
+  ng-change="updateWeather(lat, lng);">
+
   <div class="localisation">
     <span>{{currentWeather.name}}, {{currentWeather.sys.country}} </span><br/>
   </div>
